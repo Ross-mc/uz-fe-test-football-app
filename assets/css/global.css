@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .heading {
   font-family: 'Urbanist', sans-serif;
   font-weight: bold;

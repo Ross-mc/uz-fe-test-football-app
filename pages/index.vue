@@ -1,13 +1,17 @@
 <template>
-  <player-listing />
+  <layout />
 </template>
 
 <script>
-import PlayerListing from '../components/PlayerListing.vue'
+import Layout from '../components/ui/Layout.vue';
 
 export default {
   components: {
-    PlayerListing
+    Layout
   }
 }
 </script>
+
+<style scoped>
+
+</style>
