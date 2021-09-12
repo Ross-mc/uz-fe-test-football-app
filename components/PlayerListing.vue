@@ -30,7 +30,7 @@ export default {
     max-width: 1500px;
     background-color: white;
     margin: 0 auto;
-    padding: 1rem 0.5rem;
+    padding: 2rem;
   }
   .heading{
     margin: 0;
@@ -42,10 +42,21 @@ export default {
     gap: 5%;
   }
 
-  @media (max-width: 800px){
+  @media (max-width: 1000px){
+    .player-listing{
+      padding: 1rem;
+    }
     .player-container{
       display: flex;
       flex-direction: column;
+    }
+    .player-container a {
+      margin-bottom: 1rem;
+    }
+  }
+  @media (max-width: 500px){
+    .player-listing{
+      padding: 0.5rem
     }
   }
 </style>
