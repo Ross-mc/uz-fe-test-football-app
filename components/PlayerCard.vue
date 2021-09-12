@@ -3,7 +3,7 @@
     <h3 class="name">{{`${player.firstName} ${player.surname}`}}</h3>
     <div class="main-card-section">
       <div class="info">
-      <p class="country">{{player.country}}</p>
+      <img :src="`https://www.countryflags.io/${player.country}/flat/64.png`" alt="Flag of player's country">
       <p class="number">{{player.shirtNumber === "unknown" ? "NA" : player.shirtNumber}}</p>
       <p class="position">{{player.position}}</p>
     </div>

@@ -33,7 +33,7 @@ export default {
     padding: 2rem;
   }
   .heading{
-    margin: 0;
+    margin: 0 0 2rem 0;
   }
 
   .player-container {
